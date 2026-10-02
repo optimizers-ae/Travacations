@@ -28,19 +28,12 @@ export default function Header() {
         className="group flex items-center gap-2 font-serif text-2xl md:text-3xl font-bold text-dark-brown tracking-tight transition-opacity hover:opacity-95"
         aria-label="Travacations Home"
       >
-        <span className="flex items-center justify-center text-warm-brown">
-          <svg
-            className="w-5 h-5 md:w-6 md:h-6 rotate-[20deg] transition-transform duration-300 group-hover:rotate-[35deg] group-hover:scale-105"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            aria-hidden="true"
-          >
-            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3.5c-.5-.5-2.5 0-4 1.5L13.5 8.5 5.3 6.7c-.5-.1-.9.1-1.2.5l-.8 1 5.3 3.8-3 3-2.2-.6c-.3-.1-.7 0-.9.3l-.5.6 2.8 1.9 1.9 2.8.6-.5c.3-.2.4-.6.3-.9l-.6-2.2 3-3 3.8 5.3 1-.8c.4-.3.6-.7.5-1.2z" />
-          </svg>
+        <span className="flex items-center justify-center">
+          <img 
+            src="/favicon.webp" 
+            alt="Travacations Logo" 
+            className="w-10 h-10 md:w-12 md:h-12 object-contain mix-blend-multiply transition-transform duration-300 group-hover:scale-105" 
+          />
         </span>
         <span>Travacations</span>
       </a>
